@@ -84,6 +84,22 @@ Open up a browser and visit: http://127.0.0.1:8000/ , the you will see the blog.
 
 ### Screenshots
 
+#### Home - Post list
+
+![home page](screens/home-page.png)
+
+#### Post
+
+![post](screens/post-page.png)
+
+#### Tag
+
+![tag](screens/tag-page.png)
+
+#### Search results
+
+![search page](screens/search-page.png)
+
 License
 ----
 
