@@ -1,7 +1,5 @@
 # SBE
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 ### About
 
 SBE (Simple Blog Engine) is a blog system build on Python and Django.
