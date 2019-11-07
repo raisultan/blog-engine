@@ -1,0 +1,13 @@
+{% extends 'blogapp/base.html' %}
+
+{% block title %}
+    {{ tag.title|title }} tag
+{% endblock %}
+
+{% block content %}
+    <h3>Posts with "{{ tag.title|title }}" tag</h3>
+
+    {% for post in tag.posts.all %}
+        {% include 'blogapp/includes/post_card.html' %}
+    {% endfor %}
+{% endblock %}

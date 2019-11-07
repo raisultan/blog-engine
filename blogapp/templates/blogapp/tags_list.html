@@ -1,0 +1,12 @@
+{% extends 'blogapp/base.html' %}
+
+{% block title %}
+    Tags
+{% endblock %}
+
+{% block content %}
+    <h3>Tags</h3>
+    {% for tag in tags %}
+        <a href="{{ tag.get_absolute_url }}"><li>{{ tag.title }}</li></a>
+    {% endfor %}
+{% endblock %}
